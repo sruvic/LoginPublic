@@ -1,0 +1,58 @@
+#naslov {
+    text-align: left;
+    background-image: linear-gradient(gray, lightgray);
+    padding: 5px;
+    overflow: hidden;
+    top: 0;
+    margin-top: -7px;
+    font-family: "Agency FB";
+}
+
+body {
+    background-image: url("../slike/pozadina.jpg");
+
+}
+
+.pocetna {
+    float: right;
+    margin-right: 270px;
+    margin-top: -55px;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Berlin Sans FB";
+}
+
+.karijera {
+    float: right;
+    margin-right: 170px;
+    margin-top: -55px;
+}
+
+.ONama {
+    float: right;
+    margin-right: 70px;
+    margin-top: -55px;
+}
+
+
+.footer {
+    background-color: lightslategray;
+
+}
+.tekst {
+    margin-top: 700px;
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 30px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.kontakt {
+    text-align: center;
+    margin-bottom: -10px;
+    font-family: "Arial Rounded MT Bold";
+}
