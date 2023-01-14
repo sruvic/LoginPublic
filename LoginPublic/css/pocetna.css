@@ -36,11 +36,51 @@ body {
     float: right;
     margin-right: 70px;
     margin-top: -55px;
+    cursor: pointer;
 }
+
+.ONama::after {
+    content:'';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.ONama:hover::after {
+    content:'';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+
+.karijera::after {
+    content:'';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+
+.karijera:hover::after {
+    content:'';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+
 
 
 .footer {
     background-color: lightslategray;
+    color: white;
 
 }
 .tekst {
@@ -55,4 +95,22 @@ body {
     text-align: center;
     margin-bottom: -10px;
     font-family: "Arial Rounded MT Bold";
+    color: white;
+}
+
+.pocetna::after {
+    content:'';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.pocetna:hover::after {
+    content:'';
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
 }
